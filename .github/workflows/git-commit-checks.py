@@ -56,6 +56,8 @@ GITHUB_BASE_REF   = os.environ.get('GITHUB_BASE_REF')
 GITHUB_TOKEN      = os.environ.get('GITHUB_TOKEN')
 GITHUB_REPOSITORY = os.environ.get('GITHUB_REPOSITORY')
 GITHUB_REF        = os.environ.get('GITHUB_REF')
+print(f'repo: {GITHUB_REPOSITORY}')
+
 
 # Sanity check
 if (GITHUB_WORKSPACE is None or
